@@ -530,11 +530,13 @@
           >Вставьте дискету, чтобы продолжить</span
         >
       </div>
-      <form method="dialog" onsubmit="event.preventDefault(); this.closest('dialog').close();">
-        <button type="submit" class="decorated-button dialog__button">
-          <span class="button__text-dialog">Ок</span>
-        </button>
-      </form>
+      <button
+        type="submit"
+        class="decorated-button dialog__button"
+        onclick="this.closest('dialog').close()"
+      >
+        <span class="button__text-dialog">Ок</span>
+      </button>
     </dialog>
     <script src="./scripts/like.js"></script>
   </body>
