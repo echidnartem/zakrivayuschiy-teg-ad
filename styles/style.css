@@ -264,7 +264,7 @@ body:has(.dialog__save[open]) {
   filter: grayscale(100%) contrast(1000%);
 }
 
-.like-icon {  
+.like-icon {
   cursor: pointer;
 }
 
