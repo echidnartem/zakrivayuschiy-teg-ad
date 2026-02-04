@@ -1,1 +1,1 @@
-https://echidnartem.github.io/zakrivayuschiy-teg-ad/
+https://github.com/echidnartem/zakrivayuschiy-teg-ad
